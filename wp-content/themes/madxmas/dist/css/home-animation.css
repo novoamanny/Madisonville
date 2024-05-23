@@ -1,0 +1,101 @@
+
+  .snowglobe {
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  
+  .falling-snow-wrap {
+    overflow: hidden;
+    opacity: 0.99;
+    height: 809px;
+    width: 1000px;
+    position: absolute;
+    top: 0px;
+  }
+  
+  .falling-snow {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    overflow: hidden;
+    opacity: 0.99;
+  }
+
+  @media (max-width: 1000px) {
+    .falling-snow{
+      border-radius: 0;
+    }
+    .snowglobe{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .snowglobe .flakes1 p{
+    font-size: 35px;
+  }
+  .snowglobe .flakes2 p{
+    font-size: 45px;
+  }
+  
+  .flakes1 {
+    width: 1000px;
+    height: 1600px;
+    position: absolute;
+    top: 0px;
+    color: #fff;
+    opacity: .5;
+    -webkit-animation: sfanim linear 30s;
+    animation: sfanim linear 30s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-shadow: 871px 1277px, 314px 1117px, 542px 1132px, 655px 1374px, 938px 1009px, 412px 1440px, 803px 1422px, 83px 1417px, 251px 1413px, 460px 1546px, 835px 1557px, 688px 1405px, 919px 1550px, 547px 1333px, 12px 1295px, 453px 1572px, 486px 1312px, 156px 1541px, 951px 1314px, 338px 1476px, 39px 1240px, 626px 1015px, 512px 1340px, 316px 1018px, 798px 1127px, 126px 1240px, 23px 1369px, 614px 1108px, 512px 1564px, 75px 803px, 238px 1573px, 982px 1423px, 76px 1165px, 775px 1234px, 307px 1089px, 809px 1597px, 231px 1427px, 238px 1590px, 414px 803px, 841px 1083px, 558px 1547px, 684px 1422px, 968px 1460px, 423px 1179px, 600px 1456px, 230px 1597px, 634px 1170px, 781px 1369px, 507px 1259px, 871px 477px, 314px 317px, 542px 332px, 655px 574px, 938px 209px, 412px 640px, 803px 622px, 83px 617px, 251px 613px, 460px 746px, 835px 757px, 688px 605px, 919px 750px, 547px 533px, 12px 495px, 453px 772px, 486px 512px, 156px 741px, 951px 514px, 338px 676px, 39px 440px, 626px 215px, 512px 540px, 316px 218px, 798px 327px, 126px 440px, 23px 569px, 614px 308px, 512px 764px, 75px 3px, 238px 773px, 982px 623px, 76px 365px, 775px 434px, 307px 289px, 809px 797px, 231px 627px, 238px 790px, 414px 3px, 841px 283px, 558px 747px, 684px 622px, 968px 660px, 423px 379px, 600px 756px, 230px 797px, 634px 370px, 781px 569px, 507px 459px;
+  }
+  
+  .flakes2 {
+    width: 1000px;
+    height: 1600px;
+    position: absolute;
+    top: 0px;
+    color: #fff;
+    -webkit-animation: sfanim linear 10s;
+    animation: sfanim linear 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    text-shadow: 871px 1277px, 314px 1117px, 542px 1132px, 655px 1374px, 938px 1009px, 412px 1440px, 803px 1422px, 83px 1417px, 251px 1413px, 460px 1546px, 835px 1557px, 688px 1405px, 919px 1550px, 547px 1333px, 12px 1295px, 453px 1572px, 486px 1312px, 156px 1541px, 951px 1314px, 338px 1476px, 39px 1240px, 626px 1015px, 512px 1340px, 316px 1018px, 798px 1127px, 126px 1240px, 23px 1369px, 614px 1108px, 512px 1564px, 75px 803px, 238px 1573px, 982px 1423px, 76px 1165px, 775px 1234px, 307px 1089px, 809px 1597px, 231px 1427px, 238px 1590px, 414px 803px, 841px 1083px, 558px 1547px, 684px 1422px, 968px 1460px, 423px 1179px, 600px 1456px, 230px 1597px, 634px 1170px, 781px 1369px, 507px 1259px, 871px 477px, 314px 317px, 542px 332px, 655px 574px, 938px 209px, 412px 640px, 803px 622px, 83px 617px, 251px 613px, 460px 746px, 835px 757px, 688px 605px, 919px 750px, 547px 533px, 12px 495px, 453px 772px, 486px 512px, 156px 741px, 951px 514px, 338px 676px, 39px 440px, 626px 215px, 512px 540px, 316px 218px, 798px 327px, 126px 440px, 23px 569px, 614px 308px, 512px 764px, 75px 3px, 238px 773px, 982px 623px, 76px 365px, 775px 434px, 307px 289px, 809px 797px, 231px 627px, 238px 790px, 414px 3px, 841px 283px, 558px 747px, 684px 622px, 968px 660px, 423px 379px, 600px 756px, 230px 797px, 634px 370px, 781px 569px, 507px 459px;
+  }
+  
+  @-webkit-keyframes sfanim {
+    0% {
+      transform: translate(0px, -800px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+  
+  @keyframes sfanim {
+    0% {
+      transform: translate(0px, -800px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+
+  @keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }
